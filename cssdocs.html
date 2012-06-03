@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>CSS docs</title>
+        <!-- Styles the documentation is generated from-->
+        <LINK href="css_example/style.css" rel="stylesheet" type="text/css" />
+        <LINK href="css_example/divs.css" rel="stylesheet" type="text/css" />
+        <!-- just some eyecandy for documentation -->
+        <LINK href="templates/styleguide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+
+        <div class="styleguide-example">
+
+    <h3>1.1 <em>style.css</em></h3>
+    <div class="styleguide-description">
+        <p>Your standard form button.</p>
+        
+        <ul class="styleguide-modifier">
+            
+            <li><strong>:hover</strong> - Highlights when hovering.</li>
+            
+            <li><strong>:disabled</strong> - Dims the button when disabled.</li>
+            
+            <li><strong>.primary</strong> - Indicates button is the primary action.</li>
+            
+            <li><strong>.smaller</strong> - A smaller button</li>
+            
+        </ul>
+        
+    </div>
+    <div class="styleguide-element">
+        <button class='$modifier_class'>Example Button</button>
+    </div>
+    
+    <div class="styleguide-element styleguide-modifier">
+        <span class="styleguide-modifier-name">:hover</span>
+        <button class=' pseudo-class-hover'>Example Button</button>
+    </div>
+    
+    <div class="styleguide-element styleguide-modifier">
+        <span class="styleguide-modifier-name">:disabled</span>
+        <button class=' pseudo-class-disabled'>Example Button</button>
+    </div>
+    
+    <div class="styleguide-element styleguide-modifier">
+        <span class="styleguide-modifier-name">.primary</span>
+        <button class=' primary'>Example Button</button>
+    </div>
+    
+    <div class="styleguide-element styleguide-modifier">
+        <span class="styleguide-modifier-name">.smaller</span>
+        <button class=' smaller'>Example Button</button>
+    </div>
+    
+
+</div>
+
+
+        <div class="styleguide-example">
+
+    <h3>1.2 <em>divs.css</em></h3>
+    <div class="styleguide-description">
+        <p>Your standard div button.</p>
+        
+        <ul class="styleguide-modifier">
+            
+            <li><strong>.black</strong> - Black</li>
+            
+        </ul>
+        
+    </div>
+    <div class="styleguide-element">
+        <div class='$modifier_class'>Example Div</div>
+    </div>
+    
+    <div class="styleguide-element styleguide-modifier">
+        <span class="styleguide-modifier-name">.black</span>
+        <div class=' black'>Example Div</div>
+    </div>
+    
+
+</div>
+
+        <p>
+        Check the templates/styleguide.html on how to introduce new styles to your documentation. Pretty straightforward I'd say.
+        
+        </p>
+
+        <script src="templates/kss.js"></script>
+    </body>
+</html>
